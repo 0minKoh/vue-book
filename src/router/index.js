@@ -27,6 +27,16 @@ const routes = [
     path: '/KakaoLogin',
     name: 'Login',
     component: () => import(/* webpackChunkName: "Login" */ '../views/KakaoLogin.vue')
+  },
+  {
+    path: '/naverlogin',
+    name: 'NaverLogin',
+    component: () => import(/* webpackChunkName: "parent" */ '../views/NaverLogin.vue')
+  },
+  {
+    path: '/googlelogin',
+    name: 'GoogleLogin',
+    component: () => import(/* webpackChunkName: "parent" */ '../views/GoogleLogin.vue')
   }
 ]
 
