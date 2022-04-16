@@ -7,4 +7,5 @@ const app = createApp(App)
 app.use(router)
 app.mixin(mixins)
 app.mount('#app')
+window.Kakao.init("f6219c2402ac178d7bc3604e29ced814")
 

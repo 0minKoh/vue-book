@@ -23,6 +23,11 @@ const routes = [
     name: 'Data Binding',
     component: () => import(/* webpackChunkName: "Data Binding" */ '../views/DataBindingList2')
   },
+  {
+    path: '/KakaoLogin',
+    name: 'Login',
+    component: () => import(/* webpackChunkName: "Login" */ '../views/KakaoLogin.vue')
+  }
 ]
 
 const router = createRouter({
